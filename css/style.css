@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+/*---htmls---*/
+html{
+	overflow-y: scroll;
+	
+}
+body, th, td, input, select{
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+	font-size:12px;
+	color: #0F1419;
+	margin-left:auto;
+	margin-right:auto;
+}
+body{
+	background-color: #595959;
+}
+input, textarea, select{
+	padding: 2px;
+}
+
+a{
+	color: #07325b;	
+}
+h1{
+	color: #ffcc00;	 /*yellow*/
+}
+h2{
+	color: #076531;	 /*green*/
+}
+h3{
+	color:  #595959;	 /*grey*/
+}
+input, select, textarea{
+	background-color: #EEE;
+	border: #999 thin solid;
+	
+}
+input:focus, input:active{
+	border: #669900 thin solid;
+}
+img{
+	border: none;
+}
+
+
+select:focus, select:active{
+	border: #669900 thin solid;
+}
+
+textarea:focus, textarea:active{
+	border: #669900 thin solid;
+}
+/*---ids---*/
+#header{
+	width: 1000px;
+	height: 150px;
+	margin-left:auto;
+	margin-right: auto;
+	background-image:url(../images/header.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	border-bottom:#CCC thin solid;
+}
+
+#content{
+	width: 980px;	
+	padding: 10px;
+	margin-left:auto;
+	margin-right: auto;
+	min-height: 500px;
+	padding-bottom: 20px;
+	background-color:#FFF;
+}
+
+#footer{
+	border-top:#CCC thin solid;
+	background-color:#FFF;
+	width: 1000px;
+	height: 30px;
+	padding-top: 110px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align:center;
+	background-image:url(../images/footer.jpg);
+	background-repeat:no-repeat;
+	background-position: top right;
+
+}
+
+/*---classes---*/
+.redBold{
+	color:#FF0000;
+	font-weight:bold;	
+}
+
+.msg{
+	height: 20px;
+	padding-left: 20px;
+	padding-top: 2px;
+	color:#FFF;
+	background-position:left;
+	background-repeat:no-repeat;
+	border-radius: 5px;
+	}
+	
+.msg.error{
+	background-image:url(../images/ico-warning.png);
+
+	background-color: #cc4333; /*red of africa in logo*/
+	
+	}
+.msg.info{
+	background-image:url(../images/ico-info.png);
+	background-color:  #0692cf;/*light blue of africa in logo*/
+	
+	}
+.msg.done{
+	background-image: url(../images/ico-done.png);
+	background-color: #71be4e; /*green of africa in logo*/
+	/*color:#009900;*/
+	}
+
+.msg.export{
+	background-image: url(../images/ico-export.png);
+}
+
+.totalCell{
+ 
+ 	border-bottom:#999999 thin solid; 
+	border-top:#999999 thin solid;
+ 
+}
+
+.greyBG{
+	background-color:#CCC;
+	
+}
+
+#admintable class='table' tr:even{
+	background-color:#CCC;
+	
+}
+#admintable class='table' tr:hover{
+	background-color: #FFC;
+	
+}
+#admintable class='table' th{ border-bottom:solid #000 thin; background:none;}
+
+
+a {
+	color:#e7992f
+	text-decoration:none;
+	outline:none;
+	cursor:pointer;
+    -webkit-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -ms-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#e7992f;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+
+.bigText{
+	font-size: 14px;
+	
+}
+.fakeButton{
+	padding: 5px;
+	border:#CCCCCC thin solid;
+	border-radius: 4px;
+	
+}
+.fakeButton:hover{
+	background:#CCCCCC;
+	color:#FFF;
+	
+}
